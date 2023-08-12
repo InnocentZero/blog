@@ -28,8 +28,8 @@ highlight_themes_css = [
 [languages]
 
 [languages.en]
-title = "Papaya"
-description = "A clean Zola theme for blogging and projects"
+title = "Home"
+description = "My working blog. Have fun!"
 generate_feed = true
 feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
