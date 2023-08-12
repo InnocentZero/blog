@@ -8,7 +8,7 @@ compile_sass = true
 
 # When set to "true", a search index is built from the pages and section
 # content for `default_language`.
-build_search_index = false
+build_search_index = true
 
 # When set to "true", a feed is automatically generated.
 generate_feed = true
@@ -60,45 +60,13 @@ next_page = "To older posts"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
 
-[languages.zh]
-title = "帕帕雅"
-description = "一个清新的 Zola 博客与项目模板"
-base_url = "https://justintennant.me/papaya/zh"
-generate_feed = true
-# The taxonomies to be rendered for the site and their configuration of the default languages
-taxonomies = [
-    { name = "tags", feed = true, lang = "zh" },
-    { name = "categories", feed = true, lang = "zh" },
-]
-
-[languages.zh.translations]
-projects = "项目"
-blog = "博文"
-about = "关于"
-recent_projects = "近期项目"
-more_projects = "更多项目"
-recent_blog_posts = "近期博文"
-more_blog_posts = "更多博文"
-tag = "标签"
-tags = "所有标签"
-to_all_tags = "所有标签"
-category = "类别"
-categories = "所有类别"
-to_all_categories = "所有类别"
-view_by = "查看方式"
-other = "其他"
-minute = "分钟"
-prev_page = "上一页"
-next_page = "下一页"
-# Customize your post date format. See: https://tera.netlify.app/docs/#date
-date_format = "%Y 年 %m 月 %d 日"
 
 [extra]
 # Development environment. Used by the page macros to load remote content only when in "prod" mode
 env = "ZOLA_ENV"
 
 # Color theme mode. Options: light, dark, auto (automatically switch depending on OS/user agent settings)
-color_mode = "auto"
+color_mode = "dark"
 
 # List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
@@ -116,22 +84,17 @@ max_width = 2500
 # Open Graph Protocol objects. See: https://ogp.me/
 [extra.ogp]
 locale = "en_US"
-first_name = "Papaya"
-last_name = "Tiliqua"
-gender = "female"
-username = "tiliquasp"
+first_name = "InnocentZero"
+last_name = ""
+gender = "male"
+username = "innocentzero"
 
 # Footer social links; full options listed in macros/social.html
 [extra.social]
-email = "papaya@tiliqua.sp"
-github = "papaya"
-linkedin = "papayatiliqua"
-twitter = "your-user-name"
-zhihu = "your-user-name"
-weibo = "your-user-name"
-bilibili = "your-user-name"
+email = "md-isfarul-haque@proton.me"
+github = "InnocentZero"
 other = [
-    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
+    { name = "GitLab", font_awesome = "fa-brands fa-gitlab", url = "https://ww.gitlab.com" }
 ]
 
 # CDN links
