@@ -4,7 +4,7 @@ base_url = "https://innocentzero.github.io/blog"
 default_language = "en"
 
 # For overriding the default output directory `public`, set it to another value (e.g.: "docs")
-output_dir = "public"
+output_dir = "docs"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

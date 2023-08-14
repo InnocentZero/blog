@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Home - literature</title>
     <subtitle>My working blog. Have fun!</subtitle>
-    <link href="https://justintennant.me/papaya/tags/literature/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://justintennant.me/papaya"/>
+    <link href="https://innocentzero.github.io/blog/tags/literature/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://innocentzero.github.io/blog"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-08-10T00:00:00+00:00</updated>
-    <id>https://justintennant.me/papaya/tags/literature/atom.xml</id>
+    <id>https://innocentzero.github.io/blog/tags/literature/atom.xml</id>
     <entry xml:lang="en">
         <title>Freedom Falls</title>
         <published>2023-08-10T00:00:00+00:00</published>
@@ -14,8 +14,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/freedom-falls/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/freedom-falls/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/freedom-falls/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/freedom-falls/</id>
         
         <summary type="html">&lt;p&gt;A desire to break free from the bounds of society as we know it, a society that perhaps kills our dreams.&lt;&#x2F;p&gt;
 </summary>
@@ -28,8 +28,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/still-winter/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/still-winter/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/still-winter/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/still-winter/</id>
         
         <summary type="html">&lt;p&gt;A sorrow tale of losing hope in the bureaucracy that drives this world to war.&lt;&#x2F;p&gt;
 </summary>
@@ -42,8 +42,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/what-life-brings-to-us/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/what-life-brings-to-us/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/what-life-brings-to-us/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/what-life-brings-to-us/</id>
         
         <summary type="html">&lt;p&gt;A heartfelt message written by one lover to another.&lt;&#x2F;p&gt;
 </summary>
@@ -56,8 +56,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/phoenix/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/phoenix/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/phoenix/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/phoenix/</id>
         
         <summary type="html">&lt;p&gt;What happens when a godlike creature decides to live amongst us?&lt;&#x2F;p&gt;
 </summary>
@@ -70,8 +70,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/lost-lover/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/lost-lover/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/lost-lover/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/lost-lover/</id>
         
         <summary type="html">&lt;p&gt;A lover left stranded decides to tell his tale to the rest of the world.&lt;&#x2F;p&gt;
 </summary>
@@ -84,8 +84,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/if-i-could/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/if-i-could/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/if-i-could/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/if-i-could/</id>
         
         <summary type="html">&lt;p&gt;We all wish to change the past. What if we could?&lt;&#x2F;p&gt;
 </summary>
@@ -98,8 +98,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/curb-your-demons/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/curb-your-demons/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/curb-your-demons/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/curb-your-demons/</id>
         
         <summary type="html">&lt;p&gt;A battle with the demons within us.&lt;&#x2F;p&gt;
 </summary>
@@ -112,8 +112,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/im-sorry/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/im-sorry/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/im-sorry/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/im-sorry/</id>
         
         <summary type="html">&lt;p&gt;Apologise the right way!&lt;&#x2F;p&gt;
 </summary>
@@ -126,8 +126,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://justintennant.me/papaya/blog/a-single-mistake/" type="text/html"/>
-        <id>https://justintennant.me/papaya/blog/a-single-mistake/</id>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/a-single-mistake/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/a-single-mistake/</id>
         
         <summary type="html">&lt;p&gt;A single mistake can often take away a lt of things in our life, but it&#x27;s never enough to shatter us completely!&lt;&#x2F;p&gt;
 </summary>
