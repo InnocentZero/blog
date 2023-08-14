@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Home</title>
+    <subtitle>My working blog. Have fun!</subtitle>
+    <link href="https://justintennant.me/papaya/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://justintennant.me/papaya"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-08-14T00:00:00+00:00</updated>
+    <id>https://justintennant.me/papaya/atom.xml</id>
+    <entry xml:lang="en">
+        <title>My Journey with Avanti</title>
+        <published>2023-08-14T00:00:00+00:00</published>
+        <updated>2023-08-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/my-experiences-with-avanti/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/my-experiences-with-avanti/</id>
+        
+        <summary type="html">&lt;p&gt;How I joined one of the best teams ever!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Philosophy behind these notes</title>
+        <published>2023-08-12T00:00:00+00:00</published>
+        <updated>2023-08-12T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/about/philosophy/" type="text/html"/>
+        <id>https://justintennant.me/papaya/about/philosophy/</id>
+        
+        <content type="html">&lt;p&gt;I believe &lt;a href=&quot;https:&#x2F;&#x2F;notes.andymatuschak.org&#x2F;About_these_notes?stackedNotes=z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu&quot;&gt;Andy Matuschak&lt;&#x2F;a&gt; summarizes the philosophy best in his notes. Often times while working on projects we believe to only make the final view public and hiding the entire intermediate process behind the curtains. This urge for perfection can be seen everywhere courtesy social media and in a broader sense, consumer marketing. &lt;em&gt;You must be perfect to be happy&lt;&#x2F;em&gt;. Often times this ends up removing the joy of learning and working on something.&lt;&#x2F;p&gt;
+&lt;p&gt;This can also be seen in programmers who create projects. They would try to micro optimise their code, and push to the repo only when they are satisfied with what they have in front of them, which is arguably very rare. On the otehr hand, opponents of the previous philosophy say that you should &lt;a href=&quot;https:&#x2F;&#x2F;sethrobertson.github.io&#x2F;GitBestPractices&#x2F;&quot;&gt;commit often&lt;&#x2F;a&gt;. I believe in the latter.&lt;&#x2F;p&gt;
+&lt;p&gt;For me this philosophy is an attempt to show the world (or in a limited sense, whoever comes across this blog) that the process of ironing out the creases and the wrinkles is more often than not the more fun part in any process. In that regard, if you have nay suggestion regarding this website, feel free to drop them &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;InnocentZero&#x2F;innocentzero.github.io&#x2F;discussions&#x2F;1&quot;&gt;here&lt;&#x2F;a&gt;. Your comments and suggestions are always welcome!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Freedom Falls</title>
+        <published>2023-08-10T00:00:00+00:00</published>
+        <updated>2023-08-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/freedom-falls/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/freedom-falls/</id>
+        
+        <summary type="html">&lt;p&gt;A desire to break free from the bounds of society as we know it, a society that perhaps kills our dreams.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Still Winter</title>
+        <published>2023-08-05T00:00:00+00:00</published>
+        <updated>2023-08-05T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/still-winter/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/still-winter/</id>
+        
+        <summary type="html">&lt;p&gt;A sorrow tale of losing hope in the bureaucracy that drives this world to war.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What life brings to us</title>
+        <published>2023-07-31T00:00:00+00:00</published>
+        <updated>2023-07-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/what-life-brings-to-us/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/what-life-brings-to-us/</id>
+        
+        <summary type="html">&lt;p&gt;A heartfelt message written by one lover to another.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Phoenix</title>
+        <published>2023-07-20T00:00:00+00:00</published>
+        <updated>2023-07-20T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/phoenix/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/phoenix/</id>
+        
+        <summary type="html">&lt;p&gt;What happens when a godlike creature decides to live amongst us?&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Lost Lover</title>
+        <published>2023-07-14T00:00:00+00:00</published>
+        <updated>2023-07-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/lost-lover/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/lost-lover/</id>
+        
+        <summary type="html">&lt;p&gt;A lover left stranded decides to tell his tale to the rest of the world.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>If I Could</title>
+        <published>2023-07-10T00:00:00+00:00</published>
+        <updated>2023-07-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/if-i-could/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/if-i-could/</id>
+        
+        <summary type="html">&lt;p&gt;We all wish to change the past. What if we could?&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Curb Your Demons</title>
+        <published>2023-07-04T00:00:00+00:00</published>
+        <updated>2023-07-04T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/curb-your-demons/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/curb-your-demons/</id>
+        
+        <summary type="html">&lt;p&gt;A battle with the demons within us.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>I&#x27;m Sorry</title>
+        <published>2023-06-28T00:00:00+00:00</published>
+        <updated>2023-06-28T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/im-sorry/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/im-sorry/</id>
+        
+        <summary type="html">&lt;p&gt;Apologise the right way!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Single Mistake</title>
+        <published>2023-06-22T00:00:00+00:00</published>
+        <updated>2023-06-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/blog/a-single-mistake/" type="text/html"/>
+        <id>https://justintennant.me/papaya/blog/a-single-mistake/</id>
+        
+        <summary type="html">&lt;p&gt;A single mistake can often take away a lt of things in our life, but it&#x27;s never enough to shatter us completely!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Darker Dots</title>
+        <published>2023-04-11T00:00:00+00:00</published>
+        <updated>2023-04-11T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/projects/project-1/" type="text/html"/>
+        <id>https://justintennant.me/papaya/projects/project-1/</id>
+        
+        <summary type="html">&lt;p&gt;My most important dotfiles, containing all my workflows!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Image Demos</title>
+        <published>2021-01-10T00:00:00+00:00</published>
+        <updated>2021-01-10T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/projects/project-3/" type="text/html"/>
+        <id>https://justintennant.me/papaya/projects/project-3/</id>
+        
+        <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et blandit est, at pulvinar nisi. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My Movie</title>
+        <published>2020-08-22T00:00:00+00:00</published>
+        <updated>2020-08-22T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://justintennant.me/papaya/projects/project-2/" type="text/html"/>
+        <id>https://justintennant.me/papaya/projects/project-2/</id>
+        
+        <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>

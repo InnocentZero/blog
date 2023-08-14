@@ -2,6 +2,7 @@
 m ?= Based commit
 git:
 	flatpak run org.getzola.zola build
+	mv public docs
 	git add -A
 	git commit -m "$m"
 	git push origin main
