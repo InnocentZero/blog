@@ -1,7 +1,10 @@
 # The URL the site will be built for
-base_url = "https://justintennant.me/papaya"
+base_url = "https://innocentzero.github.io/blog"
 
 default_language = "en"
+
+# For overriding the default output directory `public`, set it to another value (e.g.: "docs")
+output_dir = "public"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
