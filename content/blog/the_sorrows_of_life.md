@@ -3,7 +3,7 @@ title = "The sorrows of life"
 date = 2023-08-22
 
 [taxonomies]
-tags = ["life"]
+tags = ["life", "stoics"]
 +++
 
 Why we feel life sucks, and how to escape from it.
