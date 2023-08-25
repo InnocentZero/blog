@@ -32,7 +32,7 @@ There was a simple solution I came up with. Make the push operation atomic. Open
 
 My initial push was something along these lines:
 
-```cpp, linenos, hl_lines=8-13
+```cpp
 struct TSQueue {
     uint64_t push_pointer = 0;
     uint64_t pop_pointer = 0;

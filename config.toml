@@ -97,7 +97,7 @@ username = "innocentzero"
 email = "md-isfarul-haque@proton.me"
 github = "InnocentZero"
 other = [
-    { name = "GitLab", font_awesome = "fa-brands fa-gitlab", url = "https://ww.gitlab.com" }
+    { name = "GitLab", font_awesome = "fa-brands fa-gitlab", url = "https://gitlab.com/InnocentZero" }
 ]
 
 # CDN links
