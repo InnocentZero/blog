@@ -1,20 +1,17 @@
 +++
-title = "Darker Dots"
-date = 2023-04-11
+title = "SwayDark, tiling dotfiles for power users"
+date = 2023-09-01
 
 [taxonomies]
 categories = ["software"]
 tags = ["software", "ricing"]
 +++
 
-My most important dotfiles, containing all my workflows!
+Getting coding superpowers with this dark theme!
 
 <!-- more -->
 
-If you want to skip the long explanation of my design philosophies, jump off[^1].
-
-First and foremost, my setup. I use Fedora with GNOME as my default work laptop. 
-
+If you just want the dotfiles, skip here[^1]. If some files are missing, go here[^3].
 
 # Plymouth Themes
 
@@ -26,25 +23,23 @@ git clone https://github.com/adi1090x/plymouth-themes.git
 
 sudo plymouth-set-default-theme -R angular
 ```
+# Sway config
 
-# Extensions
+It is mostly arranged and commented enough for you to set up. In any case:
+- `variables` contain some of the definitions and the rofi command.
+- `systemd-services` are there to fix a bug with firefox. Unfortunately I cannot find the link to the discussion, but if you do I'll be glad.
+- `output` should honestly not be a separate file. It will only make sense to have it if you use multiple displays. I use wpaperd and an autotiling script to split the window based on the dimensions of the window. The script is included in the `.bin` folder.
+- `input` is for my trackpad configuration.
+- `swaylock` contains the config for how to activate swaylock. Before sleeping, `grim` takes a screenshot of the current workspace which is blurred by `convert` command. Then swaylock uses it as the background.
+- `keybinds` are the most detailed of them all. It is divided accordingly.
+- `bindings-brightness` is meant to override a system config file that sent a notification every time I increased or decreased brightness/sound. This file sends it to `wob` instead.
+- `autostart` is for starting applications when sway starts.
+- `windows` is for window decorations and related config.
+- `bar` is for setting waybar and using `nm-applet` and `blueman`.
 
-These are the important gnome shell extensions I use. 
+# Waybar 
 
-- [Clipboard indicator tudmotu](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [Gesture Improvements](https://extensions.gnome.org/extension/4245/gesture-improvements/)
-- [gTile](https://extensions.gnome.org/extension/28/gtile/)
-- [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/)
-- [pop shell](https://github.com/pop-os/shell)
-- [Media Controls](https://extensions.gnome.org/extension/4470/media-controls/)
-- [Open Weather](https://extensions.gnome.org/extension/750/openweather/)
-- [Removable Drive Menu](https://extensions.gnome.org/extension/7/removable-drive-menu/)
-- [Rounded Window corners](https://extensions.gnome.org/extension/5237/rounded-window-corners/)
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-- [TopHat](https://extensions.gnome.org/extension/5219/tophat/)
-- [Workspace Indicator](https://extensions.gnome.org/extension/21/workspace-indicator/)
-
-I removed all the default system installations and installed pop shell as a system install. 
+Pretty much the standard fedora config that is recoloured and rearranged.
 
 # GTK Windows
 
@@ -52,15 +47,13 @@ Open DCONF editor and navigate to `/org/gnome/desktop/wm/preferences`. Over ther
 
 > Do **NOT** set it to `''` otherwise sushi file previewer in Nautilus will stop working.[^2]
 
-To set up the keybindings, follow the instructions in the `README` of the repo.
-
-Install `Adw-GTK3` and `Adw-GTK3-dark`, both as flatpaks and as local files. Use them and [gradience](https://gradienceteam.github.io/) to achieve a coherent look on the desktop. I personally use `alpha-black` theme from their custom presets repo but with a lower contrast. Once again, the json is available in the repo.
 
 ## Firefox and Librewolf
 
 I use both of them as flatpaks. To style them use the stylesheet provided in the repositories. Find your browser profiles in `/var/app/<firefox folder>/.mozilla/firefox/<alphanumeric-string>.default-release/`. If `chrome` folder doesn't exist create one. Put the `userChrome.css` there. 
 
-I use `mdbook` as a local content management system. My home page is there and the entire notebook is hosted on `localhost` so that I can access it without internet anytime. The home page is also there in the repository in the `/home` folder. The autostart script is there for starting mdbook as soon as I log in to my gnome session.
+I use `mdbook` as a local content management system. My home page is there and the entire notebook is hosted on `localhost` so that I can access it without internet anytime. THe home page is also there in the repository in the `/home` folder. The autostart script is there for starting mdbook as soon as I log in to my gnome session.
+
 
 # ZSH and other terminal stuff
 
@@ -94,8 +87,10 @@ This is for the case when your icons are in `.local/share/icons`. If they are so
 
 It is there in the repository. You can also join the [Telegram Themes Channel](https://t.me/tgthemes). Open it in telegram and you'll get the option to install the theme.
 
----
+--
 
-[^1] [My dotfiles](https://gitlab.com/InnocentZero/darker-dots)
+[^1] [My dotfiles](https://gitlab.com/InnocentZero/swaydark)
 
 [^2] [Look here for a relevant issue on gitlab](https://gitlab.gnome.org/GNOME/sushi/-/issues/36)
+
+[^3] [Old dotfiles](https://gitlab.com/InnocentZero/darker-dots/-/tree/main)

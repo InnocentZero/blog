@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer-when-downgrade">
 
-    <title>Darker Dots - Home</title>
+    <title>SwayDark, tiling dotfiles for power users - Home</title>
     <meta name="description" content="My working blog. Have fun!">
 
     
@@ -24,11 +24,11 @@
     
     <meta property="og:locale" content="en_US">
     
-    <meta property="og:title" content="Darker Dots">
+    <meta property="og:title" content="SwayDark, tiling dotfiles for power users">
     
     <meta property="og:type" content="article">
     <meta property="article:author" content="https://innocentzero.github.io/blog/about/">
-    <meta property="article:published_time" content="2023-04-11">
+    <meta property="article:published_time" content="2023-09-01">
     
     
     <meta property="article:tag" content="software">
@@ -38,10 +38,10 @@
     
     
     
-    <meta property="og:url" content="https://innocentzero.github.io/blog/projects/project-1/">
+    <meta property="og:url" content="https://innocentzero.github.io/blog/projects/project-3/">
     
     
-    <meta property="og:description" content="My most important dotfiles, containing all my workflows!
+    <meta property="og:description" content="Getting coding superpowers with this dark theme!
 ">
     
 
@@ -86,15 +86,15 @@
     
         
         <header>
-            <h1>Darker Dots</h1>
-            <h2 class="post-summary">My most important dotfiles, containing all my workflows!
+            <h1>SwayDark, tiling dotfiles for power users</h1>
+            <h2 class="post-summary">Getting coding superpowers with this dark theme!
 </h2>
         </header>
         
         
 <div class="article-info">
     
-    <div class="article-date">April 11, 2023</div>
+    <div class="article-date">September  1, 2023</div>
     
     <div class="article-taxonomies">
         
@@ -123,8 +123,7 @@
     
     <div class="content">
         <span id="continue-reading"></span>
-<p>If you want to skip the long explanation of my design philosophies, jump off<sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
-<p>First and foremost, my setup. I use Fedora with GNOME as my default work laptop. </p>
+<p>If you just want the dotfiles, skip here<sup class="footnote-reference"><a href="#1">1</a></sup>. If some files are missing, go here<sup class="footnote-reference"><a href="#3">2</a></sup>.</p>
 <h1 id="plymouth-themes">Plymouth Themes</h1>
 <p>I use a custom plymouth theme from this repository. A lot of cool themes are available here. Choose one to your liking.</p>
 <pre data-lang="sh" class="language-sh z-code"><code class="language-sh" data-lang="sh"><span class="z-source z-shell z-bash"><span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">git</span></span><span class="z-meta z-function-call z-arguments z-shell"> clone https://github.com/adi1090x/plymouth-themes.git</span>
@@ -132,33 +131,30 @@
 </span>
 <span class="z-meta z-function-call z-shell"><span class="z-variable z-function z-shell">sudo</span></span><span class="z-meta z-function-call z-arguments z-shell"> plymouth-set-default-theme<span class="z-variable z-parameter z-option z-shell"><span class="z-punctuation z-definition z-parameter z-shell"> -</span>R</span> angular</span>
 </span></code></pre>
-<h1 id="extensions">Extensions</h1>
-<p>These are the important gnome shell extensions I use. </p>
+<h1 id="sway-config">Sway config</h1>
+<p>It is mostly arranged and commented enough for you to set up. In any case:</p>
 <ul>
-<li><a href="https://extensions.gnome.org/extension/779/clipboard-indicator/">Clipboard indicator tudmotu</a></li>
-<li><a href="https://extensions.gnome.org/extension/4245/gesture-improvements/">Gesture Improvements</a></li>
-<li><a href="https://extensions.gnome.org/extension/28/gtile/">gTile</a></li>
-<li><a href="https://extensions.gnome.org/extension/3843/just-perfection/">Just Perfection</a></li>
-<li><a href="https://github.com/pop-os/shell">pop shell</a></li>
-<li><a href="https://extensions.gnome.org/extension/4470/media-controls/">Media Controls</a></li>
-<li><a href="https://extensions.gnome.org/extension/750/openweather/">Open Weather</a></li>
-<li><a href="https://extensions.gnome.org/extension/7/removable-drive-menu/">Removable Drive Menu</a></li>
-<li><a href="https://extensions.gnome.org/extension/5237/rounded-window-corners/">Rounded Window corners</a></li>
-<li><a href="https://extensions.gnome.org/extension/19/user-themes/">User Themes</a></li>
-<li><a href="https://extensions.gnome.org/extension/5219/tophat/">TopHat</a></li>
-<li><a href="https://extensions.gnome.org/extension/21/workspace-indicator/">Workspace Indicator</a></li>
+<li><code>variables</code> contain some of the definitions and the rofi command.</li>
+<li><code>systemd-services</code> are there to fix a bug with firefox. Unfortunately I cannot find the link to the discussion, but if you do I'll be glad.</li>
+<li><code>output</code> should honestly not be a separate file. It will only make sense to have it if you use multiple displays. I use wpaperd and an autotiling script to split the window based on the dimensions of the window. The script is included in the <code>.bin</code> folder.</li>
+<li><code>input</code> is for my trackpad configuration.</li>
+<li><code>swaylock</code> contains the config for how to activate swaylock. Before sleeping, <code>grim</code> takes a screenshot of the current workspace which is blurred by <code>convert</code> command. Then swaylock uses it as the background.</li>
+<li><code>keybinds</code> are the most detailed of them all. It is divided accordingly.</li>
+<li><code>bindings-brightness</code> is meant to override a system config file that sent a notification every time I increased or decreased brightness/sound. This file sends it to <code>wob</code> instead.</li>
+<li><code>autostart</code> is for starting applications when sway starts.</li>
+<li><code>windows</code> is for window decorations and related config.</li>
+<li><code>bar</code> is for setting waybar and using <code>nm-applet</code> and <code>blueman</code>.</li>
 </ul>
-<p>I removed all the default system installations and installed pop shell as a system install. </p>
+<h1 id="waybar">Waybar</h1>
+<p>Pretty much the standard fedora config that is recoloured and rearranged.</p>
 <h1 id="gtk-windows">GTK Windows</h1>
 <p>Open DCONF editor and navigate to <code>/org/gnome/desktop/wm/preferences</code>. Over there change the <code>button-layout</code> to <code>':'</code>. This removes all the buttons from the top bar. I use keybindings to minimize, maximize and close my windows, so I don't need them. </p>
 <blockquote>
-<p>Do <strong>NOT</strong> set it to <code>''</code> otherwise sushi file previewer in Nautilus will stop working.<sup class="footnote-reference"><a href="#2">2</a></sup></p>
+<p>Do <strong>NOT</strong> set it to <code>''</code> otherwise sushi file previewer in Nautilus will stop working.<sup class="footnote-reference"><a href="#2">3</a></sup></p>
 </blockquote>
-<p>To set up the keybindings, follow the instructions in the <code>README</code> of the repo.</p>
-<p>Install <code>Adw-GTK3</code> and <code>Adw-GTK3-dark</code>, both as flatpaks and as local files. Use them and <a href="https://gradienceteam.github.io/">gradience</a> to achieve a coherent look on the desktop. I personally use <code>alpha-black</code> theme from their custom presets repo but with a lower contrast. Once again, the json is available in the repo.</p>
 <h2 id="firefox-and-librewolf">Firefox and Librewolf</h2>
 <p>I use both of them as flatpaks. To style them use the stylesheet provided in the repositories. Find your browser profiles in <code>/var/app/&lt;firefox folder&gt;/.mozilla/firefox/&lt;alphanumeric-string&gt;.default-release/</code>. If <code>chrome</code> folder doesn't exist create one. Put the <code>userChrome.css</code> there. </p>
-<p>I use <code>mdbook</code> as a local content management system. My home page is there and the entire notebook is hosted on <code>localhost</code> so that I can access it without internet anytime. The home page is also there in the repository in the <code>/home</code> folder. The autostart script is there for starting mdbook as soon as I log in to my gnome session.</p>
+<p>I use <code>mdbook</code> as a local content management system. My home page is there and the entire notebook is hosted on <code>localhost</code> so that I can access it without internet anytime. THe home page is also there in the repository in the <code>/home</code> folder. The autostart script is there for starting mdbook as soon as I log in to my gnome session.</p>
 <h1 id="zsh-and-other-terminal-stuff">ZSH and other terminal stuff</h1>
 <p>I use zsh instead of bash. My zshrc is there in the repository. It uses a custom prompt, the main thing about which is the screensaver equivalent and the git prompt. The screen times out after 2 minutes and starts <a href="https://github.com/lhvy/pipes-rs">pipes-rs</a>. </p>
 <p>The git prompt tells you if your changes are unstanged or if there are untracked files (the branch name is yellow and there is a star), if there are staged but uncommitted changes (denoted by a circle), and also if it is ahead or behind the origin in terms of commits.</p>
@@ -175,9 +171,10 @@
 <p>This is for the case when your icons are in <code>.local/share/icons</code>. If they are somewhere else you need to set change the path appropriately.</p>
 <h2 id="telegram-theme">Telegram Theme</h2>
 <p>It is there in the repository. You can also join the <a href="https://t.me/tgthemes">Telegram Themes Channel</a>. Open it in telegram and you'll get the option to install the theme.</p>
-<hr />
-<p><sup class="footnote-reference"><a href="#1">1</a></sup> <a href="https://gitlab.com/InnocentZero/darker-dots">My dotfiles</a></p>
-<p><sup class="footnote-reference"><a href="#2">2</a></sup> <a href="https://gitlab.gnome.org/GNOME/sushi/-/issues/36">Look here for a relevant issue on gitlab</a></p>
+<p>--</p>
+<p><sup class="footnote-reference"><a href="#1">1</a></sup> <a href="https://gitlab.com/InnocentZero/swaydark">My dotfiles</a></p>
+<p><sup class="footnote-reference"><a href="#2">3</a></sup> <a href="https://gitlab.gnome.org/GNOME/sushi/-/issues/36">Look here for a relevant issue on gitlab</a></p>
+<p><sup class="footnote-reference"><a href="#3">2</a></sup> <a href="https://gitlab.com/InnocentZero/darker-dots/-/tree/main">Old dotfiles</a></p>
 
     </div>
     
