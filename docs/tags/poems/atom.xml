@@ -5,8 +5,22 @@
     <link href="https://innocentzero.github.io/blog/tags/poems/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://innocentzero.github.io/blog"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-09-03T00:00:00+00:00</updated>
+    <updated>2023-09-26T00:00:00+00:00</updated>
     <id>https://innocentzero.github.io/blog/tags/poems/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Lights</title>
+        <published>2023-09-26T00:00:00+00:00</published>
+        <updated>2023-09-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/freelights/" type="text/html"/>
+        <id>https://innocentzero.github.io/blog/blog/freelights/</id>
+        
+        <summary type="html">&lt;p&gt;A sole traveller on the path of seeking &amp;quot;the true light&amp;quot; recounts his adventures.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
     <entry xml:lang="en">
         <title>The Beloved</title>
         <published>2023-09-03T00:00:00+00:00</published>
