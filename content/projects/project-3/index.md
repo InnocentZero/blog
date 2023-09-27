@@ -59,9 +59,9 @@ I use `mdbook` as a local content management system. My home page is there and t
 
 I use zsh instead of bash. My zshrc is there in the repository. It uses a custom prompt, the main thing about which is the screensaver equivalent and the git prompt. The screen times out after 2 minutes and starts [pipes-rs](https://github.com/lhvy/pipes-rs). 
 
-The git prompt tells you if your changes are unstanged or if there are untracked files (the branch name is yellow and there is a star), if there are staged but uncommitted changes (denoted by a circle), and also if it is ahead or behind the origin in terms of commits.
+The git prompt tells you if your changes are unstaged or if there are untracked files (the branch name is yellow and there is a star), if there are staged but uncommitted changes (denoted by a circle), and also if it is ahead or behind the origin in terms of commits.
 
-I also use [peaclock](https://github.com/octobanana/peaclock) and [calcurse](https://www.calcurse.org/). I use calcurse as my scheduler and to-do list. It is integrated with conky that displays it on my desktop.
+I also use [peaclock](https://github.com/octobanana/peaclock) and [calcurse](https://www.calcurse.org/). I use calcurse as my scheduler and to-do list. It is integrated with conky that displays it on my desktop. Calcurse schedule and todo also sync with syncthing and are opened using termux on my phone.
 
 # Flatpaks
 
@@ -85,7 +85,7 @@ This is for the case when your icons are in `.local/share/icons`. If they are so
 
 ## Telegram Theme
 
-It is there in the repository. You can also join the [Telegram Themes Channel](https://t.me/tgthemes). Open it in telegram and you'll get the option to install the theme.
+It is there in the repository. You can also join the [Telegram Themes Channel](https://t.me/tgthemes). Open it in telegram and you'll get the option to install the theme. You can also customize the theme yourself to get the required colours through the application itself.
 
 --
 
