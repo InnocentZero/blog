@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Home - personal</title>
     <subtitle>My working blog. Have fun!</subtitle>
-    <link href="https://innocentzero.github.io/blog/tags/personal/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://innocentzero.github.io/blog"/>
+    <link rel="self" type="application/atom+xml" href="https://innocentzero.github.io/blog/tags/personal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-08-14T00:00:00+00:00</updated>
     <id>https://innocentzero.github.io/blog/tags/personal/atom.xml</id>
@@ -11,10 +11,16 @@
         <title>My Journey with Avanti</title>
         <published>2023-08-14T00:00:00+00:00</published>
         <updated>2023-08-14T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/my-experiences-with-avanti/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/my-experiences-with-avanti/"/>
         <id>https://innocentzero.github.io/blog/blog/my-experiences-with-avanti/</id>
         
         <summary type="html">&lt;p&gt;How I joined one of the best teams ever!&lt;&#x2F;p&gt;

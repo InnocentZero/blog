@@ -2,19 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Home - poems</title>
     <subtitle>My working blog. Have fun!</subtitle>
-    <link href="https://innocentzero.github.io/blog/tags/poems/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://innocentzero.github.io/blog"/>
+    <link rel="self" type="application/atom+xml" href="https://innocentzero.github.io/blog/tags/poems/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-09-26T00:00:00+00:00</updated>
+    <updated>2024-02-11T00:00:00+00:00</updated>
     <id>https://innocentzero.github.io/blog/tags/poems/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Beginning is the End</title>
+        <published>2024-02-11T00:00:00+00:00</published>
+        <updated>2024-02-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/the-beginning-is-the-end/"/>
+        <id>https://innocentzero.github.io/blog/blog/the-beginning-is-the-end/</id>
+        
+        <summary type="html">&lt;p&gt;Let me tell you a story. A story written solely for a single reader. The lone reader who can appreciate this story despite all the shortcomings. A story that became the pillar that supported the existence of that single reader. The single reader that became a pillar that supported my stories.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Lights</title>
         <published>2023-09-26T00:00:00+00:00</published>
         <updated>2023-09-26T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/freelights/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/freelights/"/>
         <id>https://innocentzero.github.io/blog/blog/freelights/</id>
         
         <summary type="html">&lt;p&gt;A sole traveller on the path of seeking &amp;quot;the true light&amp;quot; recounts his adventures.&lt;&#x2F;p&gt;
@@ -25,10 +51,16 @@
         <title>The Beloved</title>
         <published>2023-09-03T00:00:00+00:00</published>
         <updated>2023-09-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/gates/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/gates/"/>
         <id>https://innocentzero.github.io/blog/blog/gates/</id>
         
         <summary type="html">&lt;p&gt;A broken lover seeks to help others and finds a mysterious order with divine knowledge and just one rule, &lt;strong&gt;&amp;quot;Don&#x27;t break the dogma&amp;quot;&lt;&#x2F;strong&gt;. But when he realises he can use it to bring her back, his will is tested.&lt;&#x2F;p&gt;
@@ -39,10 +71,16 @@
         <title>Freedom Falls</title>
         <published>2023-08-10T00:00:00+00:00</published>
         <updated>2023-08-10T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/freedom-falls/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/freedom-falls/"/>
         <id>https://innocentzero.github.io/blog/blog/freedom-falls/</id>
         
         <summary type="html">&lt;p&gt;A desire to break free from the bounds of society as we know it, a society that perhaps kills our dreams.&lt;&#x2F;p&gt;
@@ -53,10 +91,16 @@
         <title>Still Winter</title>
         <published>2023-08-05T00:00:00+00:00</published>
         <updated>2023-08-05T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/still-winter/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/still-winter/"/>
         <id>https://innocentzero.github.io/blog/blog/still-winter/</id>
         
         <summary type="html">&lt;p&gt;A sorrow tale of losing hope in the bureaucracy that drives this world to war.&lt;&#x2F;p&gt;
@@ -67,10 +111,16 @@
         <title>What life brings to us</title>
         <published>2023-07-31T00:00:00+00:00</published>
         <updated>2023-07-31T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/what-life-brings-to-us/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/what-life-brings-to-us/"/>
         <id>https://innocentzero.github.io/blog/blog/what-life-brings-to-us/</id>
         
         <summary type="html">&lt;p&gt;A heartfelt message written by one lover to another.&lt;&#x2F;p&gt;
@@ -81,10 +131,16 @@
         <title>The Phoenix</title>
         <published>2023-07-20T00:00:00+00:00</published>
         <updated>2023-07-20T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/phoenix/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/phoenix/"/>
         <id>https://innocentzero.github.io/blog/blog/phoenix/</id>
         
         <summary type="html">&lt;p&gt;What happens when a godlike creature decides to live amongst us?&lt;&#x2F;p&gt;
@@ -95,10 +151,16 @@
         <title>A Lost Lover</title>
         <published>2023-07-14T00:00:00+00:00</published>
         <updated>2023-07-14T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/lost-lover/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/lost-lover/"/>
         <id>https://innocentzero.github.io/blog/blog/lost-lover/</id>
         
         <summary type="html">&lt;p&gt;A lover left stranded decides to tell his tale to the rest of the world.&lt;&#x2F;p&gt;
@@ -109,10 +171,16 @@
         <title>If I Could</title>
         <published>2023-07-10T00:00:00+00:00</published>
         <updated>2023-07-10T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/if-i-could/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/if-i-could/"/>
         <id>https://innocentzero.github.io/blog/blog/if-i-could/</id>
         
         <summary type="html">&lt;p&gt;We all wish to change the past. What if we could?&lt;&#x2F;p&gt;
@@ -123,10 +191,16 @@
         <title>Curb Your Demons</title>
         <published>2023-07-04T00:00:00+00:00</published>
         <updated>2023-07-04T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/curb-your-demons/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/curb-your-demons/"/>
         <id>https://innocentzero.github.io/blog/blog/curb-your-demons/</id>
         
         <summary type="html">&lt;p&gt;A battle with the demons within us.&lt;&#x2F;p&gt;
@@ -137,10 +211,16 @@
         <title>I&#x27;m Sorry</title>
         <published>2023-06-28T00:00:00+00:00</published>
         <updated>2023-06-28T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/im-sorry/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/im-sorry/"/>
         <id>https://innocentzero.github.io/blog/blog/im-sorry/</id>
         
         <summary type="html">&lt;p&gt;Apologise the right way!&lt;&#x2F;p&gt;
@@ -151,10 +231,16 @@
         <title>A Single Mistake</title>
         <published>2023-06-22T00:00:00+00:00</published>
         <updated>2023-06-22T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://innocentzero.github.io/blog/blog/a-single-mistake/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://innocentzero.github.io/blog/blog/a-single-mistake/"/>
         <id>https://innocentzero.github.io/blog/blog/a-single-mistake/</id>
         
         <summary type="html">&lt;p&gt;A single mistake can often take away a lt of things in our life, but it&#x27;s never enough to shatter us completely!&lt;&#x2F;p&gt;
