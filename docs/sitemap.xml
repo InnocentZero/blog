@@ -14,6 +14,10 @@
         <loc>https://innocentzero.github.io/blog/about/site-struct/</loc>
     </url>
     <url>
+        <loc>https://innocentzero.github.io/blog/art/</loc>
+        <lastmod>2023-07-14</lastmod>
+    </url>
+    <url>
         <loc>https://innocentzero.github.io/blog/blog/</loc>
     </url>
     <url>
@@ -107,7 +111,13 @@
         <loc>https://innocentzero.github.io/blog/tags/</loc>
     </url>
     <url>
+        <loc>https://innocentzero.github.io/blog/tags/art/</loc>
+    </url>
+    <url>
         <loc>https://innocentzero.github.io/blog/tags/c/</loc>
+    </url>
+    <url>
+        <loc>https://innocentzero.github.io/blog/tags/code-generated/</loc>
     </url>
     <url>
         <loc>https://innocentzero.github.io/blog/tags/hpc/</loc>

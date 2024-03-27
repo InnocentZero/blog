@@ -1,0 +1,16 @@
+{% extends "page.html" %} 
+
+
+
+{% block page_contents %}
+{% for asset in page.extra.pics -%} 
+{%- if asset is matching("[.](jpg|png)$") -%} 
+{% set image = resize_image(path=asset, width=600, op="fit_width") %}
+<div style="margin: 10px">
+  <a href="{{ get_url(path=asset) }}" target="_blank">
+    <img src="{{ image.url }}" />
+  </a>
+</div>
+{%- endif %} 
+{%- endfor %}
+{% endblock page_contents %}

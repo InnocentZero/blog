@@ -37,14 +37,15 @@ generate_feed = true
 feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
-    { name = "tags", feed = true, lang = "en" },
-    { name = "categories", feed = true, lang = "en" },
+  { name = "tags", feed = true, lang = "en" },
+  { name = "categories", feed = true, lang = "en" },
 ]
 
 [languages.en.translations]
 projects = "Projects"
 blog = "Blog"
 about = "About"
+art = "Art"
 recent_projects = "Recent Projects"
 more_projects = "More Projects"
 recent_blog_posts = "Recent Blog Posts"
@@ -73,11 +74,12 @@ color_mode = "dark"
 
 # List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
-    { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
-    { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
-    # tag is not a zola section, it's just a link.
-    { name = "tags", url = "$LANG_BASE_URL/tags" },
-    { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
+  { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
+  { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },
+  { name = "art", url = "$LANG_BASE_URL/art" },
+  # tag is not a zola section, it's just a link.
+  { name = "tags", url = "$LANG_BASE_URL/tags" },
+  { name = "about", url = "$LANG_BASE_URL/about", show_recent = false },
 ]
 
 [extra.images]
@@ -97,7 +99,7 @@ username = "innocentzero"
 email = "md-isfarul-haque@proton.me"
 github = "InnocentZero"
 other = [
-    { name = "GitLab", font_awesome = "fa-brands fa-gitlab", url = "https://gitlab.com/InnocentZero" }
+  { name = "GitLab", font_awesome = "fa-brands fa-gitlab", url = "https://gitlab.com/InnocentZero" },
 ]
 
 # CDN links

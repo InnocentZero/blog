@@ -60,14 +60,14 @@ But in the end, I found peace
 
 Knowledge abound, my soul released
 
-For those shimmering stars were not just lights
+For the shimmering stars were not just lights
 
-They were the beacons of wisdom, infinite sights
+They were beacons of wisdom, infinite sights
 
 <br>
-Perched upon those towering heights so grand
+Perched upon heights so grand
 
-They held the keys to understanding, hand in hand
+They held the keys, hand in hand
 
 I realized that the journey was the prize
 
@@ -76,7 +76,7 @@ A quest for truth, where the soul truly flies
 <br>
 The doubts and fears, they all did fade
 
-As I delved into the secrets they displayed
+As I delved into secrets they displayed
 
 Each star a lesson, each night a chance
 
@@ -85,7 +85,7 @@ To grow, to learn, to truly advance
 <br>
 So I continued on that winding trail
 
-Through hardship, through joy, through every travail
+Through hardship, joy, and every travail
 
 For in the end, I found my way
 
